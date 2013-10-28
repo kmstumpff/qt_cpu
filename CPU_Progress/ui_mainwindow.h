@@ -45,7 +45,7 @@ public:
         progressBar = new QProgressBar(centralWidget);
         progressBar->setObjectName(QStringLiteral("progressBar"));
         progressBar->setGeometry(QRect(50, 80, 321, 31));
-        progressBar->setValue(24);
+        progressBar->setValue(0);
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
         pushButton->setGeometry(QRect(110, 20, 75, 23));
